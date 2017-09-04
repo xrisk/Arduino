@@ -1,0 +1,47 @@
+const int l1=0,l2=1,l3=2,l4=3,l5=4,l6=5,l7=6,l8=7;
+void setup()
+{
+pinMode(l1,OUTPUT);
+pinMode(l2,OUTPUT);
+pinMode(l3,OUTPUT);
+pinMode(l4,OUTPUT);
+pinMode(l5,OUTPUT);
+pinMode(l6,OUTPUT);
+pinMode(l7,OUTPUT);
+pinMode(l8,OUTPUT);
+}
+void loop() 
+{
+digitalWrite(l1,1);
+delay(200);
+digitalWrite(l1,0);
+delay(200);
+digitalWrite(l2,1);
+delay(200);
+digitalWrite(l2,0);
+delay(200);
+digitalWrite(l3,1);
+delay(200);
+digitalWrite(l3,0);
+delay(200);
+digitalWrite(l4,1);
+delay(200);
+digitalWrite(l4,0);
+delay(200);
+digitalWrite(l5,1);
+delay(200);
+digitalWrite(l5,0);
+delay(200);
+digitalWrite(l6,1);
+delay(200);
+digitalWrite(l6,0);
+delay(200);
+digitalWrite(l7,1);
+delay(200);
+digitalWrite(l7,0);
+delay(200);
+digitalWrite(l8,1);
+delay(200);
+digitalWrite(l8,0);
+delay(1000);
+}
